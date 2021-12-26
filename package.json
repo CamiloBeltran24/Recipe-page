@@ -1,0 +1,31 @@
+{
+  "name": "recipe-page",
+  "version": "1.0.0",
+  "description": "Solucion de reto tomado de devChallenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "sass": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiloBeltran24/Recipe-page.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Christian Camilo Beltran Fonseca <cambelf.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamiloBeltran24/Recipe-page/issues"
+  },
+  "homepage": "https://github.com/CamiloBeltran24/Recipe-page#readme",
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "node-sass": "^7.0.0",
+    "sass-loader": "^12.4.0"
+  }
+}

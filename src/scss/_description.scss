@@ -1,0 +1,96 @@
+.description {
+  h2 {
+    font-family: $titleFont;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-align: left;
+    counter-reset: $black;
+    margin-top: 3.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .description-text {
+    width: 100%;
+    display: grid;
+    grid-template-columns: min-content auto;
+    // gap: 1rem;
+    svg {
+      display: block;
+      transform: rotate(90deg);
+      fill: $dragColor;
+      margin-right: 1rem;
+      position: relative;
+      top: -2px;
+    }
+    p {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-style: italic;
+      font-family: $textFont;
+      color: $gray2;
+    }
+  }
+  &__image {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2.4rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .recipe-statistics {
+    width: 100%;
+    .yields {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 2rem;
+      svg {
+        fill: $orange;
+      }
+      .yields-statics {
+        width: auto;
+        font-family: $textFont;
+        margin-left: 0.5rem;
+        .title {
+          font-size: 0.8rem;
+          color: $gray4;
+        }
+        .servings {
+          font-size: 1rem;
+          color: $orange;
+        }
+      }
+    }
+  }
+  .time-statistics {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .timer {
+      display: flex;
+      width: 111px;
+      svg {
+        fill: $gray2;
+      }
+      .timer-text {
+        margin-left: 0.5rem;
+        .title {
+          font-size: 0.8rem;
+          font-family: $textFont;
+          color: $gray4;
+          text-transform: uppercase;
+        }
+        .time {
+          font-family: $textFont;
+          font-size: 1rem;
+          color: $gray1;
+        }
+      }
+    }
+  }
+}

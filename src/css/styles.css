@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  padding: 12px;
+  overflow: hidden;
+}
+
+.description h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: left;
+  counter-reset: #000000;
+  margin-top: 3.2rem;
+  margin-bottom: 1.2rem;
+}
+.description .description-text {
+  width: 100%;
+  display: grid;
+  grid-template-columns: min-content auto;
+}
+.description .description-text svg {
+  display: block;
+  transform: rotate(90deg);
+  fill: #c4c4c4;
+  margin-right: 1rem;
+  position: relative;
+  top: -2px;
+}
+.description .description-text p {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  color: #4f4f4f;
+}
+.description__image {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2.4rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+.description__image img {
+  width: 100%;
+  object-fit: cover;
+}
+.description .recipe-statistics {
+  width: 100%;
+}
+.description .recipe-statistics .yields {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+.description .recipe-statistics .yields svg {
+  fill: #f2994a;
+}
+.description .recipe-statistics .yields .yields-statics {
+  width: auto;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 0.5rem;
+}
+.description .recipe-statistics .yields .yields-statics .title {
+  font-size: 0.8rem;
+  color: #bdbdbd;
+}
+.description .recipe-statistics .yields .yields-statics .servings {
+  font-size: 1rem;
+  color: #f2994a;
+}
+.description .time-statistics {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.description .time-statistics .timer {
+  display: flex;
+  width: 111px;
+}
+.description .time-statistics .timer svg {
+  fill: #4f4f4f;
+}
+.description .time-statistics .timer .timer-text {
+  margin-left: 0.5rem;
+}
+.description .time-statistics .timer .timer-text .title {
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+  color: #bdbdbd;
+  text-transform: uppercase;
+}
+.description .time-statistics .timer .timer-text .time {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #333333;
+}
+
+/*# sourceMappingURL=styles.css.map */

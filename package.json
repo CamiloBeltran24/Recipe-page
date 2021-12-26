@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "live-server",
-    "sass": "sass --watch scss/styles.scss css/styles.css"
+    "sass": "sass --watch src/scss/styles.scss src/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,6 @@
   "homepage": "https://github.com/CamiloBeltran24/Recipe-page#readme",
   "devDependencies": {
     "live-server": "^1.1.0",
-    "node-sass": "^7.0.0",
-    "sass-loader": "^12.4.0"
+    "sass": "^1.45.1"
   }
 }

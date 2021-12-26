@@ -56,12 +56,12 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [x] User story: This is a completed user stories
-- [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
+- [] User story: I can see a recipe with ingredients and instructions
+- [] User story: I can select a checkbox if I have the ingredients
+- [] User story: I can see the number of servings, baking times
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@CamiloBeltran24](https://github.com/CamiloBeltran24)
+- Twitter [@CamiloBeltran](https://twitter.com/CamiloBeltran)
+- LinkedIn [Christian Camilo Beltrán Fonseca](https://www.linkedin.com/in/camilobeltran24/)

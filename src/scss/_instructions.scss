@@ -1,0 +1,60 @@
+.instructions {
+  width: 100%;
+  counter-reset: contador;
+  h2 {
+    @include subtitle;
+  }
+  ol {
+    list-style: none;
+    li {
+      display: flex;
+      .counter {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 3.6rem;
+        height: 3.6rem;
+        margin-right: 1.5rem;
+        background-color: $orange;
+        font-family: $titleFont;
+        font-size: 2.4rem;
+        font-weight: 700;
+        border-radius: 0.6rem;
+        color: #ffffff;
+        &::before {
+          counter-increment: contador;
+          content: counter(contador);
+        }
+      }
+      p {
+        font-family: $textFont;
+        font-size: 1.6rem;
+        font-weight: 400;
+        width: 30rem;
+        color: $black;
+        display: inline-block;
+        margin-bottom: 1.1rem;
+        line-height: 150%;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+    // &::before {
+    //   display: inline-flex;
+    //   counter-increment: contador;
+    //   content: counter(contador);
+    //   justify-content: center;
+    //   align-items: center;
+    //   width: 3.6rem;
+    //   height: 3.6rem;
+    //   margin-right: 1.5rem;
+    //   background-color: $orange;
+    //   color: #ffffff;
+    //   border-radius: 0.6rem;
+    //   font-family: $titleFont;
+    //   font-size: 2.4rem;
+    //   font-weight: 700;
+    // }
+  }
+}

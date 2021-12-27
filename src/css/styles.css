@@ -54,57 +54,57 @@ html {
   width: 100%;
   object-fit: cover;
 }
-.description .recipe-statistics {
+
+.recipe-statistics {
   width: 100%;
 }
-.description .recipe-statistics .yields {
+.recipe-statistics .yields {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 2rem;
 }
-.description .recipe-statistics .yields svg {
+.recipe-statistics .yields svg {
   fill: #f2994a;
 }
-.description .recipe-statistics .yields .yields-statics {
+.recipe-statistics .yields .yields-statics {
   width: auto;
   font-family: "Montserrat", sans-serif;
   margin-left: 0.5rem;
 }
-.description .recipe-statistics .yields .yields-statics .title {
+.recipe-statistics .yields .yields-statics .title {
   font-size: 0.8rem;
   color: #bdbdbd;
 }
-.description .recipe-statistics .yields .yields-statics .servings {
+.recipe-statistics .yields .yields-statics .servings {
   font-size: 1rem;
   color: #f2994a;
 }
-
-.time-statistics {
+.recipe-statistics .time-statistics {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.time-statistics .timer {
+.recipe-statistics .time-statistics .timer {
   display: flex;
   width: 111px;
 }
-.time-statistics .timer svg {
+.recipe-statistics .time-statistics .timer svg {
   fill: #4f4f4f;
 }
-.time-statistics .timer .timer-text {
+.recipe-statistics .time-statistics .timer .timer-text {
   margin-left: 0.5rem;
 }
-.time-statistics .timer .timer-text .title {
+.recipe-statistics .time-statistics .timer .timer-text .title {
   font-size: 0.8rem;
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
   text-transform: uppercase;
   font-weight: 700;
 }
-.time-statistics .timer .timer-text .time {
+.recipe-statistics .time-statistics .timer .timer-text .time {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #333333;

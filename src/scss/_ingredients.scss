@@ -1,0 +1,43 @@
+.ingredients {
+  width: 100%;
+  h2 {
+    @include subtitle;
+  }
+  .ingredients__list {
+    width: 100%;
+    h3 {
+      @include listTitle;
+    }
+    .list2-title {
+      margin-top: 4rem;
+    }
+    label {
+      display: flex;
+      width: 100%;
+      margin-bottom: 0.3rem;
+      input[type="checkbox"] {
+        margin-right: 0.8rem;
+        border-color: $checkboxColor;
+        width: 2.1rem;
+        height: 2.1rem;
+        border-radius: 0.4rem;
+      }
+      p {
+        width: 321px;
+        font-family: $textFont;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: $gray1;
+        span {
+          font-weight: 700;
+        }
+      }
+      p.toppings {
+        span {
+          font-weight: 500;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}

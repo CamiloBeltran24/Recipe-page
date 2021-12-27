@@ -40,6 +40,7 @@ html {
   font-size: 1.2rem;
   font-style: italic;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   color: #4f4f4f;
 }
 .description__image {
@@ -79,32 +80,90 @@ html {
   font-size: 1rem;
   color: #f2994a;
 }
-.description .time-statistics {
+
+.time-statistics {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.description .time-statistics .timer {
+.time-statistics .timer {
   display: flex;
   width: 111px;
 }
-.description .time-statistics .timer svg {
+.time-statistics .timer svg {
   fill: #4f4f4f;
 }
-.description .time-statistics .timer .timer-text {
+.time-statistics .timer .timer-text {
   margin-left: 0.5rem;
 }
-.description .time-statistics .timer .timer-text .title {
+.time-statistics .timer .timer-text .title {
   font-size: 0.8rem;
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
   text-transform: uppercase;
+  font-weight: 700;
 }
-.description .time-statistics .timer .timer-text .time {
+.time-statistics .timer .timer-text .time {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #333333;
+  font-weight: bold;
+}
+
+.ingredients {
+  width: 100%;
+}
+.ingredients h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: #333333;
+}
+.ingredients .ingredients__list {
+  width: 100%;
+}
+.ingredients .ingredients__list h3 {
+  margin-bottom: 2.3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.6rem;
+  color: #333333;
+  line-height: 2.1rem;
+  text-transform: capitalize;
+}
+.ingredients .ingredients__list .list2-title {
+  margin-top: 4rem;
+}
+.ingredients .ingredients__list label {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+.ingredients .ingredients__list label input[type=checkbox] {
+  margin-right: 0.8rem;
+  border-color: #828282;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 0.4rem;
+}
+.ingredients .ingredients__list label p {
+  width: 321px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #333333;
+}
+.ingredients .ingredients__list label p span {
+  font-weight: 700;
+}
+.ingredients .ingredients__list label p.toppings span {
+  font-weight: 500;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=styles.css.map */

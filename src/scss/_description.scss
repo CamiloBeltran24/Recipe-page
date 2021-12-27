@@ -26,6 +26,7 @@
       font-size: 1.2rem;
       font-style: italic;
       font-family: $textFont;
+      font-weight: 500;
       color: $gray2;
     }
   }
@@ -66,30 +67,32 @@
       }
     }
   }
-  .time-statistics {
-    width: 100%;
+}
+.time-statistics {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .timer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .timer {
-      display: flex;
-      width: 111px;
-      svg {
-        fill: $gray2;
+    width: 111px;
+    svg {
+      fill: $gray2;
+    }
+    .timer-text {
+      margin-left: 0.5rem;
+      .title {
+        font-size: 0.8rem;
+        font-family: $textFont;
+        color: $gray4;
+        text-transform: uppercase;
+        font-weight: 700;
       }
-      .timer-text {
-        margin-left: 0.5rem;
-        .title {
-          font-size: 0.8rem;
-          font-family: $textFont;
-          color: $gray4;
-          text-transform: uppercase;
-        }
-        .time {
-          font-family: $textFont;
-          font-size: 1rem;
-          color: $gray1;
-        }
+      .time {
+        font-family: $textFont;
+        font-size: 1rem;
+        color: $gray1;
+        font-weight: bold;
       }
     }
   }

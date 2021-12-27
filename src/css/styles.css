@@ -240,4 +240,18 @@ footer p a {
   color: #828282;
 }
 
+@media (min-width: 1024px) {
+  .container {
+    max-width: 970px;
+    margin: auto;
+  }
+  .container .description h2 {
+    font-size: 4.8rem;
+  }
+  .container .description p {
+    font-size: 1.4rem;
+    max-width: 590px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

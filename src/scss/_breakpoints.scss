@@ -1,15 +1,126 @@
-@media (min-width: 1024px) {
+//TABLET
+@media (min-width: 768px) {
   .container {
-    max-width: 970px;
-    margin: auto;
+    position: relative;
     .description {
       h2 {
-        font-size: 4.8rem;
+        font-size: 3.8rem;
       }
       p {
         font-size: 1.4rem;
         max-width: 590px;
       }
+    }
+    .recipe-statistics {
+      // @include recipe-statistics;
+      width: 90%;
+      .yields {
+        .yields-statics {
+          svg {
+            width: 27.09px;
+            height: 25.14px;
+          }
+          .servings {
+            font-size: 1.4rem;
+          }
+        }
+      }
+      .time-statistics {
+        .timer {
+          svg {
+            width: 28.33px;
+            height: 26.52px;
+          }
+          .timer-text {
+            width: 106px;
+            .title {
+              font-size: 1rem;
+              line-height: 1.3rem;
+            }
+            .time {
+              font-size: 1.4rem;
+              line-height: 1.7rem;
+            }
+          }
+        }
+      }
+    }
+    .ingredients {
+      h2 {
+        font-size: 2rem;
+      }
+      .ingredients__list {
+        label {
+          p {
+            font-size: 1.6rem;
+            width: 554px;
+          }
+        }
+      }
+    }
+    .instructions {
+      h2 {
+        font-size: 2rem;
+      }
+      ol {
+        li {
+          p {
+            width: 528px;
+          }
+        }
+      }
+    }
+  }
+}
+// DESKTOP
+@media (min-width: 1024px) {
+  .container {
+    max-width: 970px;
+    margin: auto;
+    position: relative;
+    .description {
+      h2 {
+        font-size: 4.8rem;
+      }
+    }
+    .recipe-statistics {
+      @include recipe-statistics;
+      .yields {
+        width: 111px;
+        justify-content: center;
+        margin: 0;
+        margin-top: 5.3rem;
+        margin-bottom: 4.3rem;
+        .yields-statics {
+          width: 106px;
+          .title {
+            font-size: 1rem;
+          }
+        }
+      }
+      .time-statistics {
+        display: flex;
+        flex-direction: column;
+        .timer {
+          margin-bottom: 4.2rem;
+          .timer-text {
+          }
+        }
+      }
+    }
+    // INGREDIENTS
+    .ingredients {
+      h2 {
+        font-size: 2.4rem;
+      }
+      .ingredients__list {
+        h3 {
+          font-size: 1.8rem;
+        }
+      }
+    }
+    // INSTRUCTIONS
+    .instructions {
     }
   }
 }

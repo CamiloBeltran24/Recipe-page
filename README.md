@@ -8,16 +8,12 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://github.com/CamiloBeltran24/Recipe-page">
+      Repo
+    </a>
+    <span> | </span>
+    <a href="https://recipe-page-hcyvjve9n-camilobeltran24.vercel.app/">
       Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
-      Challenge
     </a>
   </h3>
 </div>
@@ -56,9 +52,9 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [] User story: I can see a recipe with ingredients and instructions
-- [] User story: I can select a checkbox if I have the ingredients
-- [] User story: I can see the number of servings, baking times
+- [x] User story: I can see a recipe with ingredients and instructions
+- [x] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can see the number of servings, baking times
 
 ## Contact
 
